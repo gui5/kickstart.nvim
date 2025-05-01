@@ -91,7 +91,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- Set to true if you have a Nerd Font installed and selected in the terminal
-vim.g.have_nerd_font = false
+vim.g.have_nerd_font = true
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
@@ -285,8 +285,6 @@ require('lazy').setup({
       },
     },
   },
-
-  { 'nvim-tree/nvim-web-devicons' },
 
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
@@ -963,6 +961,7 @@ require('lazy').setup({
         'rust',
         'go',
         'templ',
+        'sql',
         'diff',
         'html',
         'lua',
